@@ -1,0 +1,9 @@
+PII={} #Creates a dictionary
+
+PII["Name"] = input("What is your first name? ")
+PII["LastName"] = input("What is your last name? ")
+PII["Location"] = input("What is your location? ")
+PII["Age"] = input("What is your age? ")
+
+print(type(PII))
+print("Hi",PII["Name"]," ", PII["LastName"], "!", "Your location is:", PII["Location"],"and you are ", PII["Age"], "years old")
